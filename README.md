@@ -20,7 +20,7 @@ This will configure a postgres database named 'sonar' for the user 'sonar'
 
 ## Start the Sonar container
 
-'''shell
+```shell
 docker run --name sonarcube --link postgres-sonarcube:db -v <config-dir>:/opt/sonarcube/conf -p 9000:9000 -d sonarcube-server
-'''
+```
 
